@@ -1,0 +1,62 @@
+.Main {
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Main-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Main-container {
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    order: 1;
+}
+
+.Main-draggie {
+    max-width: 25vmin;
+    max-height: 20vmin;
+    width: 250px;
+    height: 200px;
+}
+
+.Main-text {
+    color: white;
+    cursor: default;
+    font: 1.75vw sans-serif;
+    order: 2;
+    text-align: center;
+    text-shadow: 0 0 1px black, 1px 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 1;
+}

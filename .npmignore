@@ -1,0 +1,30 @@
+# Files created by operating systems that shouldn't be packaged.
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# Source code configuration files that shouldn't be packaged.
+.gitignore
+.jshintignore
+.jshintrc
+
+# Developer-specific IDE files that shouldn't be packaged.
+*.xcodeproj
+.idea
+atlassian-ide-plugin.xml
+
+# Files used for design that shouldn't be packaged.
+/design
+
+# Files used for building and testing that shouldn't be packaged.
+/builds
+/spec
+/test
+/tools
+TEST-*.xml
+
+# Run-time generated files that shouldn't be packaged.
+node_modules
+npm-debug.log

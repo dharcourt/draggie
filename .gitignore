@@ -1,0 +1,19 @@
+# Files created by operating systems that shouldn't be committed.
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# Developer-specific IDE files that shouldn't be committed.
+*.xcodeproj
+.idea
+atlassian-ide-plugin.xml
+
+# Files generated when building and testing that shouldn't be committed.
+/builds
+TEST-*.xml
+
+# Run-time generated files that shouldn't be committed.
+node_modules
+npm-debug.log

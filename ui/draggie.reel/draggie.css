@@ -1,0 +1,11 @@
+.Draggie {
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+    -webkit-filter: drop-shadow(3px 3px 5px rgba(51, 0, 0, 1));
+    filter: drop-shadow(3px 3px 5px rgba(51, 0, 0, 0.5));
+}
+
+.Draggie.Draggie--hit {
+    cursor: move;
+}

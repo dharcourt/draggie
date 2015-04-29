@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Main</title>
+
+    <link rel="stylesheet" href="main.css">
+
+       <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <script type="text/montage-serialization">
+        {
+            "owner": {
+                "properties": {
+                    "element": {"#": "main"}
+                }
+            },
+            "draggie": {
+                "prototype": "ui/draggie.reel",
+                "properties": {
+                    "element": {"#": "draggie"},
+                    "map": {"#": "map"}
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div data-montage-id="main" class="Main">
+        <div data-montage-id="map" class="Main-map"></div>
+        <div class="Main-container">
+            <div data-montage-id="draggie" class="Main-draggie"></div>
+        </div>
+        <div class="Main-text">
+            Move Draggie the dragon, or move the map.<br>
+            Note how you can move the map by dragging between Draggie's wing and tail.<br>
+            Note also how the cursor changes as you move the pointer over Draggie.<br>
+            Resize the window to resize Draggie and do it again!<br>
+    </div>
+</body>
+</html>

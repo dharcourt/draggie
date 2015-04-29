@@ -1,0 +1,15 @@
+{
+    "name": "draggie",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dharcourt/draggie.git"
+    },
+    "dependencies": {
+        "leaflet": "~0.7.3",
+        "montage": "~0.15.0"
+    },
+    "bundle": [
+        "ui/main.reel"
+    ]
+}
